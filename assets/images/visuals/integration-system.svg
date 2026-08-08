@@ -1,0 +1,51 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Capas de información integradas</title>
+<desc id="desc">Capas de información sanitaria, productiva, diagnóstica y espacial convergen en interpretación epidemiológica.</desc>
+<defs>
+  <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0F3D36" flood-opacity="0.09"/></filter>
+</defs>
+<g opacity="0.25" stroke="#0F3D36" stroke-width="1.5">
+  <path d="M83 139H815" stroke-dasharray="4 10"/>
+  <path d="M83 280H815" stroke-dasharray="4 10"/>
+  <path d="M83 421H815" stroke-dasharray="4 10"/>
+</g>
+<g filter="url(#s)">
+  <rect x="82" y="75" width="230" height="104" rx="26" fill="#FFFDF9" stroke="#D8DED9"/>
+  <circle cx="130" cy="127" r="18" fill="#E6AAAA"/>
+  <path d="M126 127H134M130 123V131" stroke="#662112" stroke-width="3" stroke-linecap="round"/>
+  <path d="M166 115H274M166 134H248" stroke="#0F3D36" stroke-opacity="0.72" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="82" y="228" width="230" height="104" rx="26" fill="#FFFDF9" stroke="#D8DED9"/>
+  <circle cx="130" cy="280" r="18" fill="#E8EEE9"/>
+  <path d="M120 288L128 273L136 283L143 264" stroke="#0F3D36" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M166 268H274M166 287H236" stroke="#0F3D36" stroke-opacity="0.72" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="82" y="381" width="230" height="104" rx="26" fill="#FFFDF9" stroke="#D8DED9"/>
+  <circle cx="130" cy="433" r="18" fill="#F1E6DE"/>
+  <path d="M120 433H140M130 423V443" stroke="#662112" stroke-width="3" stroke-linecap="round"/>
+  <path d="M166 421H274M166 440H252" stroke="#0F3D36" stroke-opacity="0.72" stroke-width="5" stroke-linecap="round"/>
+</g>
+<g stroke="#0F3D36" stroke-width="3" stroke-linecap="round">
+  <path d="M312 127C400 127 405 190 459 238"/>
+  <path d="M312 280H451"/>
+  <path d="M312 433C400 433 405 370 459 322"/>
+</g>
+<g filter="url(#s)">
+  <circle cx="546" cy="280" r="112" fill="#0F3D36"/>
+  <circle cx="546" cy="280" r="84" stroke="#F6F3EE" stroke-opacity="0.22" stroke-width="2"/>
+  <circle cx="546" cy="280" r="52" stroke="#F6F3EE" stroke-opacity="0.22" stroke-width="2"/>
+  <path d="M499 281L530 251L552 270L590 230" stroke="#E6AAAA" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="499" cy="281" r="6" fill="#FFFDF9"/>
+  <circle cx="530" cy="251" r="6" fill="#FFFDF9"/>
+  <circle cx="552" cy="270" r="6" fill="#FFFDF9"/>
+  <circle cx="590" cy="230" r="6" fill="#E6AAAA"/>
+</g>
+<g stroke="#0F3D36" stroke-width="3" stroke-linecap="round">
+  <path d="M658 280H741"/>
+</g>
+<g filter="url(#s)">
+  <rect x="739" y="219" width="111" height="122" rx="26" fill="#FFFDF9" stroke="#D8DED9"/>
+  <path d="M767 307V274M792 307V251M817 307V287" stroke="#0F3D36" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="817" cy="259" r="8" fill="#E6AAAA"/>
+</g>
+</svg>

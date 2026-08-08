@@ -1,0 +1,78 @@
+<svg width="960" height="760" viewBox="0 0 960 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Red epidemiológica integrada</title>
+  <desc id="desc">Visual abstracto de nodos, redes, territorio, riesgo, series temporales y herramientas conectadas.</desc>
+  <defs>
+    <linearGradient id="wash" x1="174" y1="104" x2="805" y2="697" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6AAAA" stop-opacity="0.24"/>
+      <stop offset="0.48" stop-color="#E8EEE9" stop-opacity="0.64"/>
+      <stop offset="1" stop-color="#0F3D36" stop-opacity="0.10"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0F3D36" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <path d="M148 174C238 77 399 43 538 83C687 126 806 248 822 394C838 539 735 665 591 702C453 738 292 690 201 581C111 472 63 265 148 174Z" fill="url(#wash)"/>
+
+  <g opacity="0.28" stroke="#0F3D36" stroke-width="1.6">
+    <ellipse cx="482" cy="367" rx="248" ry="238"/>
+    <ellipse cx="482" cy="367" rx="248" ry="113"/>
+    <path d="M234 367H730"/>
+    <path d="M482 129C430 189 404 268 404 367C404 466 430 545 482 605"/>
+    <path d="M482 129C534 189 560 268 560 367C560 466 534 545 482 605"/>
+  </g>
+
+  <g stroke="#0F3D36" stroke-width="2.5" stroke-linecap="round" opacity="0.72">
+    <path d="M287 248L389 310L507 227L641 309L699 438L570 520L424 473L320 555"/>
+    <path d="M389 310L424 473L570 520"/>
+    <path d="M507 227L570 520"/>
+    <path d="M287 248L424 473"/>
+    <path d="M641 309L570 520"/>
+    <path d="M389 310L641 309" stroke-dasharray="6 10"/>
+  </g>
+
+  <g>
+    <circle cx="287" cy="248" r="13" fill="#E6AAAA" stroke="#662112" stroke-width="4"/>
+    <circle cx="389" cy="310" r="10" fill="#F6F3EE" stroke="#0F3D36" stroke-width="4"/>
+    <circle cx="507" cy="227" r="16" fill="#0F3D36" stroke="#F6F3EE" stroke-width="5"/>
+    <circle cx="641" cy="309" r="11" fill="#E6AAAA" stroke="#662112" stroke-width="4"/>
+    <circle cx="699" cy="438" r="15" fill="#0F3D36" stroke="#F6F3EE" stroke-width="5"/>
+    <circle cx="570" cy="520" r="12" fill="#E6AAAA" stroke="#662112" stroke-width="4"/>
+    <circle cx="424" cy="473" r="11" fill="#F6F3EE" stroke="#0F3D36" stroke-width="4"/>
+    <circle cx="320" cy="555" r="13" fill="#0F3D36" stroke="#F6F3EE" stroke-width="5"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="99" y="438" width="188" height="128" rx="26" fill="#FFFDF9" stroke="#D8DED9"/>
+    <path d="M126 528L153 497L178 510L209 467L258 486" stroke="#0F3D36" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="153" cy="497" r="6" fill="#E6AAAA"/>
+    <circle cx="209" cy="467" r="6" fill="#662112"/>
+    <path d="M126 542H258" stroke="#D8DED9" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="650" y="133" width="190" height="138" rx="26" fill="#FFFDF9" stroke="#D8DED9"/>
+    <rect x="682" y="170" width="24" height="63" rx="8" fill="#E8EEE9"/>
+    <rect x="717" y="188" width="24" height="45" rx="8" fill="#E6AAAA" fill-opacity="0.75"/>
+    <rect x="752" y="153" width="24" height="80" rx="8" fill="#0F3D36" fill-opacity="0.88"/>
+    <rect x="787" y="178" width="24" height="55" rx="8" fill="#662112" fill-opacity="0.84"/>
+    <path d="M681 245H812" stroke="#D8DED9" stroke-width="2"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="670" y="526" width="173" height="118" rx="26" fill="#FFFDF9" stroke="#D8DED9"/>
+    <path d="M704 588C724 547 756 548 772 579C790 614 810 609 823 563" stroke="#0F3D36" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="704" cy="588" r="6" fill="#E6AAAA"/>
+    <circle cx="772" cy="579" r="6" fill="#662112"/>
+    <circle cx="823" cy="563" r="6" fill="#0F3D36"/>
+  </g>
+
+  <g opacity="0.65">
+    <circle cx="154" cy="250" r="5" fill="#662112"/>
+    <circle cx="180" cy="272" r="4" fill="#E6AAAA"/>
+    <circle cx="198" cy="232" r="7" fill="#0F3D36"/>
+    <circle cx="790" cy="367" r="6" fill="#E6AAAA"/>
+    <circle cx="821" cy="388" r="4" fill="#662112"/>
+    <circle cx="776" cy="407" r="5" fill="#0F3D36"/>
+  </g>
+</svg>

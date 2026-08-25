@@ -1,6 +1,22 @@
 (() => {
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.nav');
+
+  // EPISUIS applications: keep this external access next to Technical Notes
+  // without duplicating the same navigation edit across every static page.
+  if (nav && !nav.querySelector('[data-vigilancia-link]')) {
+    const notesLink = Array.from(nav.querySelectorAll('a')).find(a => a.href.includes('/notas-tecnicas/'));
+    if (notesLink) {
+      const vigilanciaLink = document.createElement('a');
+      vigilanciaLink.href = 'https://vigilancia-episuis.pages.dev/';
+      vigilanciaLink.target = '_blank';
+      vigilanciaLink.rel = 'noopener';
+      vigilanciaLink.dataset.vigilanciaLink = '';
+      vigilanciaLink.textContent = document.documentElement.lang.startsWith('en') ? 'Surveillance ↗' : 'Vigilancia ↗';
+      notesLink.insertAdjacentElement('afterend', vigilanciaLink);
+    }
+  }
+
   if (toggle && nav) {
     toggle.addEventListener('click', () => {
       const open = nav.classList.toggle('is-open');
